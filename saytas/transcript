@@ -1,0 +1,17 @@
+# Reading pref.tcl
+# Loading project 16_4encoder
+# Compile of 16_4encoder.vhd was successful.
+vsim -gui work.e16_4encoder
+# vsim -gui work.e16_4encoder 
+# Start time: 16:01:53 on Jun 05,2021
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.e16_4encoder(behv)
+add wave -r /*
+force -freeze sim:/e16_4encoder/input 1000000000000000 0
+run
+force -freeze sim:/e16_4encoder/input 0000000000000100 0
+run
+# End time: 16:03:12 on Jun 05,2021, Elapsed time: 0:01:19
+# Errors: 0, Warnings: 2
